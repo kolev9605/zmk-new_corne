@@ -79,9 +79,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp SINGLE_QUOTE  &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp DOT                              &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &trans
-&trans  &kp EXCL          &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans  &kp CARET         &kp SLASH      &kp ASTRK         &kp BACKSLASH      &kp GRAVE  &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp AT        &trans
+&trans  &kp SINGLE_QUOTE  &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp DOT                              &mmv MOVE_UP                     &kp AMPS   &kp AMPS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &trans
+&trans  &kp EXCL          &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp COLON  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp CARET         &kp SLASH      &kp ASTRK         &kp BACKSLASH      &kp GRAVE  &trans                    &mmv MOVE_DOWN                   &kp TILDE  &kp PLUS   &kp LBRC              &kp RBRC               &kp AT        &trans
                                          &trans            &trans             &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
