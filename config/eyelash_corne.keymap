@@ -88,10 +88,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp SINGLE_QUOTE  &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp DOT                              &mmv MOVE_UP                     &kp AMPS   &kp AMPS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &trans
-&trans  &kp EXCL          &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp COLON  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans  &kp CARET         &kp SLASH      &kp ASTRK         &kp BACKSLASH      &kp GRAVE  &trans                    &mmv MOVE_DOWN                   &kp TILDE  &kp PLUS   &kp LBRC              &kp RBRC               &kp AT        &trans
-                                         &trans            &trans             &kp SPACE                                                             &kp RET    &trans     &trans
+&trans  &kp SINGLE_QUOTE  &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp DOT                              &mmv MOVE_UP                     &kp AMPS   &kp UNDER   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &trans
+&trans  &kp EXCL          &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PIPE   &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp CARET         &kp SLASH      &kp ASTRK         &kp BACKSLASH      &kp GRAVE  &trans                    &mmv MOVE_DOWN                   &kp TILDE  &kp DOLLAR  &kp LBRC              &kp RBRC               &kp AT        &trans
+                                         &trans            &trans             &kp SPACE                                                             &kp RET    &trans      &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
