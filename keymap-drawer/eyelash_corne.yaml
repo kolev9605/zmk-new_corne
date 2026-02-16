@@ -28,7 +28,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: RIGHT GUI}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '-', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
