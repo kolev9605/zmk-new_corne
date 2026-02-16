@@ -29,7 +29,7 @@ layers:
   - {t: L, h: RIGHT GUI}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:backspace-reverse-outline$$
   - Z
   - X
   - C
@@ -47,7 +47,7 @@ layers:
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - NUMBER
+  - {t: NUMBER, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -95,8 +95,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
