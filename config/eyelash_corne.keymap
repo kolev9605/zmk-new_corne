@@ -35,15 +35,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-
-        // Override default mod-tap with longer tapping term
-        mt: behavior_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
