@@ -76,10 +76,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB     &kp Q           &kp W           &kp E             &kp R               &kp T                               &kp UP                &kp Y      &kp U                &kp I              &kp O            &kp P               &kp GRAVE
-&td0        &hm LEFT_ALT A  &hm LEFT_GUI S  &hm LEFT_SHIFT D  &hm LEFT_CONTROL F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &hm RIGHT_CONTROL J  &hm RIGHT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMI  &kp MINUS
-&kp DELETE  &kp Z           &kp X           &kp C             &kp V               &kp B        &kp SPACE              &kp DOWN              &kp N      &kp M                &kp COMMA          &kp DOT          &kp FSLH            &kp BACKSLASH
-                                            &kp ESCAPE        &mo 2               &lt 3 SPACE                                               &kp ENTER  &tog 1               &kp BACKSPACE
+&kp TAB          &kp Q           &kp W           &kp E             &kp R               &kp T                               &kp UP                &kp Y      &kp U                &kp I              &kp O            &kp P               &kp GRAVE
+&kp PRINTSCREEN  &hm LEFT_ALT A  &hm LEFT_GUI S  &hm LEFT_SHIFT D  &hm LEFT_CONTROL F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &hm RIGHT_CONTROL J  &hm RIGHT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMI  &kp MINUS
+&kp LEFT_ALT     &kp Z           &kp X           &kp C             &kp V               &kp B        &kp SPACE              &kp DOWN              &kp N      &kp M                &kp COMMA          &kp DOT          &kp FSLH            &kp BACKSLASH
+                                                 &kp ESCAPE        &mo 2               &lt 3 SPACE                                               &kp ENTER  &mo 1                &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -88,10 +88,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans           &kp N1           &kp N2          &kp N3        &kp N4           &kp N5                                         &mmv MOVE_UP                     &kp N6    &kp N7         &kp N8       &kp N9     &kp N0  &trans
-&rgb_ug RGB_BRI  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
-&rgb_ug RGB_BRD  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &rgb_ug RGB_EFF  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
-                                                  &trans        &trans           &trans                                                                          &trans    &trans         &kp DEL
+&trans  &kp N1        &kp N2        &kp N3          &kp N4            &kp N5                                &mmv MOVE_UP                     &kp N6    &kp N7                  &kp N8              &kp N9               &kp N0                   &trans
+&trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &hm RIGHT_CONTROL DOWN  &hm RIGHT_SHIFT UP  &hm RIGHT_GUI RIGHT  &hm RIGHT_ALT RIGHT_ALT  &trans
+&trans  &trans        &trans        &trans          &trans            &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HOME  &kp PAGE_DOWN           &kp PAGE_UP         &kp END              &trans                   &trans
+                                    &trans          &trans            &trans                                                                 &trans    &trans                  &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -112,10 +112,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1          &kp F2           &kp F3           &kp F4        &kp F5                                      &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&sys_reset      &bt BT_CLR_ALL  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&bootloader     &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &trans        &mkp MB5      &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                                 &trans           &trans        &trans                                                                       &trans       &trans     &trans
+&studio_unlock  &kp F1          &kp F2           &kp F3           &kp F4           &kp F5                                         &mmv MOVE_UP                     &kp F6       &kp F7  &kp F8       &kp F9      &kp F10          &kp F11
+&bt BT_CLR_ALL  &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &trans  &trans       &trans      &kp PRINTSCREEN  &kp F12
+&bootloader     &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans  &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                                 &trans           &trans           &trans                                                                          &trans       &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
