@@ -33,7 +33,9 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp PRINTSCREEN>;
+            bindings = <&kp LA(LEFT_SHIFT)>, <&kp PRINTSCREEN>;
+
+            tapping-term-ms = <300>;
         };
 
         // Custom mod-tap with longer tapping term for homerow mods
@@ -53,6 +55,7 @@
             bindings = <&kp LG(LEFT_ALT)>, <&kp LA(LSHFT)>;
 
             label = "TWM";
+            tapping-term-ms = <300>;
         };
     };
 
