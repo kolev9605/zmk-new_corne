@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - {t: '`', s: '~'}
-  - '&td0'
+  - '&prnt'
+  - $$mdi:apple-keyboard-option$$
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -28,8 +28,8 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: RIGHT GUI}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '-', s: _}
-  - '&twm'
+  - '&lang'
+  - Alt+$$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
